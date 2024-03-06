@@ -1,0 +1,16 @@
+#exitButton {
+	-fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-background-color: #ff5050;
+}
+
+#menu {
+    -fx-background-color: #68E7FE
+}
+
+#title {
+    -fx-text-fill: black;
+    -fx-font-size: 24px;
+    -fx-text-align: center;
+    -fx-font-weight: bold;
+}

@@ -1,0 +1,13 @@
+#timeLeftLabel {
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+#gamingScreen {
+    -fx-background-color: #68E7FE
+}
+
+#question   {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+}

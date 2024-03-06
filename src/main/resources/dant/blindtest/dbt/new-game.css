@@ -1,0 +1,16 @@
+#discardButton {
+	-fx-text-fill: black;
+    -fx-font-size: 12px;
+    -fx-background-color: #ff5050;
+}
+
+#param {
+    -fx-background-color: #68E7FE;
+}
+
+#titre {
+    -fx-alignment: top-center;
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-underline: true;
+}

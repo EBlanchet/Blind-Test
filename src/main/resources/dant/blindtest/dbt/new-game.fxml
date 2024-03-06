@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.collections.FXCollections?>
+<AnchorPane id="param" xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="dant.blindtest.dbt.NewGameController"
+            prefHeight="400.0" prefWidth="600.0">
+    <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="20.0">
+        <Label id="titre" prefWidth="400.0" text="Paramètres :" />
+        <VBox prefWidth="400.0" spacing="20.0">
+            <HBox alignment="CENTER" spacing="20.0">
+                <Label text="Nombre de tours :" />
+                <TextField fx:id="numberTurn" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="20.0">
+                <Label text="Durée maximum d'un tour :" />
+                <TextField fx:id="maxTurnTime" />
+            </HBox>
+            <HBox alignment="CENTER" spacing="20.0">
+                <Label text="Type de partie :"/>
+                <ComboBox fx:id="gameTypeComboBox" promptText="Choisir le mode de jeu">
+                    <items>
+                        <FXCollections fx:factory="observableArrayList">
+                            <String fx:value="Personnes connues" />
+                            <String fx:value="Musiques connues" />
+                        </FXCollections>
+                    </items>
+                </ComboBox>
+            </HBox>
+            <HBox alignment="CENTER" spacing="20.0">
+                <Button fx:id="discardButton" mnemonicParsing="false" text="Retour au menu principal" onAction="#discardButtonAction" />
+                <Button fx:id="startGameButton" mnemonicParsing="false" text="Lancer la partie !" onAction="#startGameButtonAction" />
+            </HBox>
+        </VBox>
+    </VBox>
+</AnchorPane>

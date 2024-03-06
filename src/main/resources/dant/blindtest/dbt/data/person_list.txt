@@ -1,0 +1,20 @@
+Ariana Grande:ariana_grande.png
+Barack Obama:barack_obama.png
+Céline Dion:celine_dion.png
+Charlie Puth:charlie_puth.png
+Daniel Radcliffe:daniel_radcliffe.png
+Donald Trump:donald_trump.png
+Elvis Presley:elvis_presley.png
+Eminem:eminem.png
+Emma Watson:emma_watson.png
+Emmanuel Macron:emmanuel_macron.png
+John Lennon:john_lennon.png
+Justin Bieber:justin_bieber.png
+Mariah Carey:mariah_carey.png
+Marylin Monroe:marylin_monroe.png
+Michael Jackson:michael_jackson.png
+Miley Cyrus:miley_cyrus.png
+Shawn Mendes:shawn_mendes.png
+Sylvester Stallone:sylvester_stallone.png
+Taylor Swift:taylor_swift.png
+Vin Diesel:vin_diesel.png
